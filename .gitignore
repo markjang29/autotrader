@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets / API keys (절대 커밋 금지)
+.env
+*.key
+*.pem
+secrets.*
+credentials.json
+config/live.*
+
+# Market data
+data/raw/
+data/processed/
+*.csv
+*.db
+*.sqlite
+*.parquet
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
